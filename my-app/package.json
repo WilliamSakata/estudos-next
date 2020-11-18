@@ -1,15 +1,37 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "with-tailwindcss",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  }
+    "axios": "^0.21.0",
+    "mongodb": "^3.6.2",
+    "next": "^10.0.0",
+    "next-auth": "^3.1.0",
+    "react": "^16.13.1",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.13.1",
+    "swr": "^0.3.8-beta.2"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.5.33",
+    "@types/next-auth": "^3.1.16",
+    "@types/react": "^16.9.56",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.13.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-webpack-plugin": "^2.3.0",
+    "postcss-flexbugs-fixes": "4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.2",
+    "tailwindcss": "^1.7.4",
+    "typescript": "^4.0.2"
+  },
+  "license": "MIT"
 }
