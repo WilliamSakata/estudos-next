@@ -5,12 +5,13 @@ import Head from "next/head";
 import React, { useState, useEffect } from "react";
 import "tailwindcss/tailwind.css";
 
-const Home: NextPage = () => {
+const AppPage: NextPage = () => {
   const [session, loading] = useSession();
   return (
-    <div className="text-3xl">
+    <div>
       {!session && (
-        <div>
+        <div className="text-3xl">
+          <h1>Bem vindo a página inicial do my-app</h1>
           Not signed in <br />
           <button onClick={(): Promise<void> => signIn("auth0")}>
             Sign in
@@ -32,4 +33,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default AppPage;
